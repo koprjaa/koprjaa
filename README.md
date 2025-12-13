@@ -1,16 +1,15 @@
-## Hi there 👋
+# Hi, I'm Jan Alexandr Kopřiva
 
-<!--
-**koprjaa/koprjaa** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+I am a developer focused on data extraction, automation, and applied AI.
+My work is centered around scraping, APIs, and turning raw data into usable systems.
 
-Here are some ideas to get you started:
+Background in business intelligence and competitive intelligence.
+Most projects here come from real problems, coursework, or internal tooling.
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+If you need help with data collection, automation, or applied AI systems,
+feel free to reach out.
+
+---
+
+Email: jan.alexandr.kopriva@gmail.com  
+LinkedIn: https://cz.linkedin.com/in/jan-alexandr-kopriva
