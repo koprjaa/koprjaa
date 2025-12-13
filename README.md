@@ -3,8 +3,7 @@
 I am a student of Business Intelligence and a no-code / low-code developer.
 I focus on data extraction, automation, and applied AI using APIs and workflow tools.
 
-Most projects here come from coursework, real-world problems, or internal tooling.
-I prefer practical solutions over complex architectures.
+Most projects here come from personal projects, coursework, or internal tooling.
 
 Need help with automation, data collection, or applied AI?
 Reach me at: <code>jan.alexandr.kopriva {@} gmail dot com</code>
