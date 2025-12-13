@@ -1,15 +1,14 @@
-# Hi, I'm Jan Alexandr Kopřiva
+<h2>Hi, I'm Jan Alexandr Kopřiva</h2>
 
-I am a developer focused on data extraction, automation, and applied AI.
-My work is centered around scraping, APIs, and turning raw data into usable systems.
+I am a student of Business Intelligence and a no-code / low-code developer.
+I focus on data extraction, automation, and applied AI using APIs and workflow tools.
 
-Background in business intelligence and competitive intelligence.
-Most projects here come from real problems, coursework, or internal tooling.
+Most projects here come from coursework, real-world problems, or internal tooling.
+I prefer practical solutions over complex architectures.
 
-If you need help with data collection, automation, or applied AI systems,
-feel free to reach out.
+Need help with automation, data collection, or applied AI?
+Reach me at: <code>jan.alexandr.kopriva {@} gmail dot com</code>
 
----
-
-Email: jan.alexandr.kopriva@gmail.com  
-LinkedIn: https://cz.linkedin.com/in/jan-alexandr-kopriva
+<a href="https://cz.linkedin.com/in/jan-alexandr-kopriva">
+  <img src="https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white" />
+</a>
