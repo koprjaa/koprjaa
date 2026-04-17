@@ -1,31 +1,15 @@
-<h1 align="center">Hi, I'm Jan Alexandr Kopřiva</h1>
+# Hi, I'm Jan Alexandr Kopřiva
 
-<p align="center">
-Business Intelligence student at VŠE Prague, no-code / low-code developer, and data-extraction hobbyist.<br>
-Most of what I build falls into three buckets: <b>web scrapers</b>, <b>applied-AI services</b>, and <b>small desktop tooling</b>.
-</p>
+Business Intelligence student at VŠE Prague, no-code / low-code developer, and data-extraction hobbyist.
+Most of what I build falls into three buckets: **web scrapers**, **applied-AI services**, and **small desktop tooling**.
 
-<p align="center">
-
-<img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" />
-<img src="https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white" />
-<img src="https://img.shields.io/badge/Flask-000?style=flat-square&logo=flask&logoColor=white" />
-<img src="https://img.shields.io/badge/pandas-150458?style=flat-square&logo=pandas&logoColor=white" />
-<img src="https://img.shields.io/badge/scikit--learn-F7931E?style=flat-square&logo=scikit-learn&logoColor=white" />
-<img src="https://img.shields.io/badge/Ray-028CF0?style=flat-square" />
-<img src="https://img.shields.io/badge/aiohttp-2C5BB4?style=flat-square" />
-<br>
-<img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" />
-<img src="https://img.shields.io/badge/Next.js-000?style=flat-square&logo=nextdotjs&logoColor=white" />
-<img src="https://img.shields.io/badge/Three.js-000?style=flat-square&logo=threedotjs&logoColor=white" />
-<img src="https://img.shields.io/badge/Tailwind-38BDF8?style=flat-square&logo=tailwindcss&logoColor=white" />
-<br>
-<img src="https://img.shields.io/badge/n8n-EA4B71?style=flat-square&logo=n8n&logoColor=white" />
-<img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white" />
-<img src="https://img.shields.io/badge/ChromaDB-222?style=flat-square" />
-<img src="https://img.shields.io/badge/llama.cpp-555?style=flat-square" />
-
-</p>
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
+![Next.js](https://img.shields.io/badge/Next.js-000?style=flat-square&logo=nextdotjs&logoColor=white)
+![pandas](https://img.shields.io/badge/pandas-150458?style=flat-square&logo=pandas&logoColor=white)
+![n8n](https://img.shields.io/badge/n8n-EA4B71?style=flat-square&logo=n8n&logoColor=white)
+![ChromaDB](https://img.shields.io/badge/ChromaDB-222?style=flat-square)
 
 ## Projects worth clicking
 
@@ -42,8 +26,4 @@ I'm open to projects in **data extraction**, **workflow automation**, and **appl
 
 Reach me at <code>jan.alexandr.kopriva {@} gmail dot com</code>.
 
-<p>
-<a href="https://cz.linkedin.com/in/jan-alexandr-kopriva">
-  <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=flat-square&logo=linkedin&logoColor=white" />
-</a>
-</p>
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=flat-square&logo=linkedin&logoColor=white)](https://cz.linkedin.com/in/jan-alexandr-kopriva)
