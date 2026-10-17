@@ -1,3 +1,17 @@
+#
+# Project: koprjaa
+# File:    test_readme.py
+#
+# Description:
+# Tests for profile README existence, section presence, and link validity.
+#
+# Author:
+# Jan Alexandr Kopřiva
+# jan.alexandr.kopriva@gmail.com
+#
+# License: MIT
+#
+
 """Validační testy pro profilové README: existence, sekce, platnost odkazů."""
 
 import re

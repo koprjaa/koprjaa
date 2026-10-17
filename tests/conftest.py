@@ -1,3 +1,17 @@
+#
+# Project: koprjaa
+# File:    conftest.py
+#
+# Description:
+# Provides a fixture that prevents network access during testing.
+#
+# Author:
+# Jan Alexandr Kopřiva
+# jan.alexandr.kopriva@gmail.com
+#
+# License: MIT
+#
+
 import socket
 
 import pytest
