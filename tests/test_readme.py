@@ -21,7 +21,6 @@ REPO_ROOT = Path(__file__).resolve().parent.parent
 README = REPO_ROOT / "README.md"
 
 LINK_RE = re.compile(r"!?\[[^\]]*\]\(([^)\s]+)(?:\s+\"[^\"]*\")?\)")
-HEADER_RE = re.compile(r"^(#{1,6})\s+(.+?)\s*$", re.MULTILINE)
 SCHEME_RE = re.compile(r"^[a-zA-Z][a-zA-Z0-9+.-]*:")
 
 
@@ -49,16 +48,14 @@ def test_readme_exists_and_nonempty():
     assert len(text) > 200
 
 
-def test_readme_has_expected_headers():
+def test_readme_has_expected_blocks():
+    # profil je krátký monospace blok a sbalený stack
     text = README.read_text(encoding="utf-8")
-    headers = [(len(level), title) for level, title in HEADER_RE.findall(text)]
-    expected = [
-        (1, "Jan Alexandr Kopřiva"),
-        (2, "Projects"),
-        (2, "Contact"),
-    ]
-    for item in expected:
-        assert item in headers, f"chybí sekce {item} v README"
+    assert text.startswith("```\n"), "README má začínat monospace blokem"
+    intro = text.split("```")[1]
+    for needle in ("AI engineer", "Reach me:"):
+        assert needle in intro, f"chybí {needle!r} v úvodním bloku"
+    assert "<summary>STACK</summary>" in text
 
 
 def test_readme_relative_links_all_exist():
