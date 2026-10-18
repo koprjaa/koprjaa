@@ -1,22 +1,20 @@
-<svg xmlns="http://www.w3.org/2000/svg" font-family="ConsolasFallback,Consolas,monospace" width="640px" height="370px" font-size="16px">
+<svg xmlns="http://www.w3.org/2000/svg" font-family="ConsolasFallback,Consolas,monospace" width="620px" height="324px" font-size="16px">
 <style>@font-face{src:local('Consolas'),local('Consolas Bold');font-family:'ConsolasFallback';font-display:swap;-webkit-size-adjust:109%;size-adjust:109%;}.key{fill:#953800;}.value{fill:#0a3069;}.cc{fill:#c2cfde;}text,tspan{white-space:pre;}</style>
-<rect width="640px" height="370px" fill="#f6f8fa" rx="15"/>
-<text x="15" y="30" fill="#24292f">
-<tspan x="15" y="30">jan@koprjaa <tspan class="cc">-——————————————————————————————————————————————-—-</tspan></tspan>
-<tspan x="15" y="50"><tspan class="cc">. </tspan><tspan class="key">OS</tspan>: <tspan class="cc">............................. </tspan><tspan class="value">Windows 11, macOS, Linux</tspan></tspan>
-<tspan x="15" y="70"><tspan class="cc">. </tspan><tspan class="key">Host</tspan>: <tspan class="cc">........ </tspan><tspan class="value">Prague University of Economics and Business</tspan></tspan>
-<tspan x="15" y="90"><tspan class="cc">. </tspan><tspan class="key">Kernel</tspan>: <tspan class="cc">...................................... </tspan><tspan class="value">AI engineer</tspan></tspan>
-<tspan x="15" y="110"><tspan class="cc">. </tspan><tspan class="key">Degree</tspan>: <tspan class="cc">........................ </tspan><tspan class="value">MSc Business Intelligence</tspan></tspan>
-<tspan x="15" y="130"><tspan class="cc">. </tspan><tspan class="key">IDE</tspan>: <tspan class="cc">......................................... </tspan><tspan class="value">Claude Code</tspan></tspan>
-<tspan x="15" y="150"><tspan class="cc">. </tspan></tspan>
-<tspan x="15" y="170"><tspan class="cc">. </tspan><tspan class="key">Languages.Programming</tspan>: <tspan class="cc">..... </tspan><tspan class="value">Rust, Python, TypeScript, SQL</tspan></tspan>
-<tspan x="15" y="190"><tspan class="cc">. </tspan><tspan class="key">Languages.Real</tspan>: <tspan class="cc">........... </tspan><tspan class="value">Czech, English, Slovak, German</tspan></tspan>
-<tspan x="15" y="210"><tspan class="cc">. </tspan></tspan>
-<tspan x="15" y="230"><tspan class="cc">. </tspan><tspan class="key">Builds.AI</tspan>: <tspan class="cc">......... </tspan><tspan class="value">LLM apps, AI agents, RAG, MCP servers</tspan></tspan>
-<tspan x="15" y="250"><tspan class="cc">. </tspan><tspan class="key">Builds.Data</tspan>: <tspan class="cc">....... </tspan><tspan class="value">scrapers, ETL pipelines, data quality</tspan></tspan>
-<tspan x="15" y="270"><tspan class="cc">. </tspan><tspan class="key">Projects</tspan>: <tspan class="cc">...... </tspan><tspan class="value">aiky.cz, dq-skills, da-skills, theses-mcp</tspan></tspan>
-<tspan x="15" y="290">- Contact -<tspan class="cc">——————————————————————————————————————————————-—-</tspan></tspan>
-<tspan x="15" y="310"><tspan class="cc">. </tspan><tspan class="key">Email</tspan>: <tspan class="cc">............... </tspan><tspan class="value">jan.alexandr.kopriva {at} gmail.com</tspan></tspan>
-<tspan x="15" y="330"><tspan class="cc">. </tspan><tspan class="key">LinkedIn</tspan>: <tspan class="cc">........................... </tspan><tspan class="value">jan-alexandr-kopriva</tspan></tspan>
-<tspan x="15" y="350"><tspan class="cc">. </tspan><tspan class="key">Web</tspan>: <tspan class="cc">............................................. </tspan><tspan class="value">aiky.cz</tspan></tspan>
+<text x="1" y="16" fill="#24292f">
+<tspan x="1" y="16">jan@koprjaa <tspan class="cc">-——————————————————————————————————————————————-—-</tspan></tspan>
+<tspan x="1" y="36"><tspan class="cc">. </tspan><tspan class="key">OS</tspan>: <tspan class="cc">............................. </tspan><tspan class="value">Windows 11, macOS, Linux</tspan></tspan>
+<tspan x="1" y="56"><tspan class="cc">. </tspan><tspan class="key">Host</tspan>: <tspan class="cc">........ </tspan><tspan class="value">Prague University of Economics and Business</tspan></tspan>
+<tspan x="1" y="76"><tspan class="cc">. </tspan><tspan class="key">Kernel</tspan>: <tspan class="cc">...................................... </tspan><tspan class="value">AI engineer</tspan></tspan>
+<tspan x="1" y="96"><tspan class="cc">. </tspan><tspan class="key">Degree</tspan>: <tspan class="cc">........................ </tspan><tspan class="value">MSc Business Intelligence</tspan></tspan>
+<tspan x="1" y="116"><tspan class="cc">. </tspan><tspan class="key">IDE</tspan>: <tspan class="cc">......................................... </tspan><tspan class="value">Claude Code</tspan></tspan>
+<tspan x="1" y="136"><tspan class="cc">. </tspan></tspan>
+<tspan x="1" y="156"><tspan class="cc">. </tspan><tspan class="key">Languages.Programming</tspan>: <tspan class="cc">..... </tspan><tspan class="value">Rust, Python, TypeScript, SQL</tspan></tspan>
+<tspan x="1" y="176"><tspan class="cc">. </tspan><tspan class="key">Languages.Real</tspan>: <tspan class="cc">........... </tspan><tspan class="value">Czech, English, Slovak, German</tspan></tspan>
+<tspan x="1" y="196"><tspan class="cc">. </tspan></tspan>
+<tspan x="1" y="216"><tspan class="cc">. </tspan><tspan class="key">Builds.AI</tspan>: <tspan class="cc">......... </tspan><tspan class="value">LLM apps, AI agents, RAG, MCP servers</tspan></tspan>
+<tspan x="1" y="236"><tspan class="cc">. </tspan><tspan class="key">Builds.Data</tspan>: <tspan class="cc">....... </tspan><tspan class="value">scrapers, ETL pipelines, data quality</tspan></tspan>
+<tspan x="1" y="256"><tspan class="cc">. </tspan><tspan class="key">Projects</tspan>: <tspan class="cc">...... </tspan><tspan class="value">aiky.cz, dq-skills, da-skills, theses-mcp</tspan></tspan>
+<tspan x="1" y="276">- Contact -<tspan class="cc">——————————————————————————————————————————————-—-</tspan></tspan>
+<tspan x="1" y="296"><tspan class="cc">. </tspan><tspan class="key">Email</tspan>: <tspan class="cc">............... </tspan><tspan class="value">jan.alexandr.kopriva {at} gmail.com</tspan></tspan>
+<tspan x="1" y="316"><tspan class="cc">. </tspan><tspan class="key">LinkedIn</tspan>: <tspan class="cc">........................... </tspan><tspan class="value">jan-alexandr-kopriva</tspan></tspan>
 </text></svg>
