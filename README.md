@@ -1,16 +1,16 @@
 ```
-                             jan@koprjaa
-                             -----------
-                             Role: AI engineer
-    ##    ####    ##   ##    Location: Prague, Czechia
-    ##   ##  ##   ##  ##     Host: Prague University of Economics and Business
-    ##  ##    ##  #####      Degree: MSc Business Intelligence
-    ##  ########  ## ##      Kernel: Rust, Python
-##  ##  ##    ##  ##  ##     Shell: Claude Code
- ####   ##    ##  ##   ##    Builds: LLM apps, AI agents, RAG, data pipelines
-                             Projects: aiky.cz, dq-skills, da-skills, theses-mcp
-                             LinkedIn: linkedin.com/in/jan-alexandr-kopriva
-                             Email: jan.alexandr.kopriva {at} gmail.com
+jan@koprjaa
+-----------
+Role: AI engineer
+Location: Prague, Czechia
+Host: Prague University of Economics and Business
+Degree: MSc Business Intelligence
+Kernel: Rust, Python
+Shell: Claude Code
+Builds: LLM apps, AI agents, RAG, data pipelines
+Projects: aiky.cz, dq-skills, da-skills, theses-mcp
+LinkedIn: linkedin.com/in/jan-alexandr-kopriva
+Email: jan.alexandr.kopriva {at} gmail.com
 ```
 
 <details>
