@@ -49,17 +49,14 @@ def test_readme_exists_and_nonempty():
 
 
 def test_readme_has_expected_blocks():
-    # profil je neofetch v monospace bloku a sbalený stack
+    # profil je neofetch karta (světlé a tmavé SVG) a sbalený stack
     text = README.read_text(encoding="utf-8")
-    assert text.startswith("```\n"), "README má začínat monospace blokem"
-    intro = text.split("```")[1]
-    for needle in (
-        "jan@koprjaa",
-        "AI engineer",
-        "Prague University of Economics and Business",
-        "linkedin.com/in/",
-    ):
-        assert needle in intro, f"chybí {needle!r} v úvodním bloku"
+    for svg in ("light_mode.svg", "dark_mode.svg"):
+        assert svg in text, f"README neodkazuje na {svg}"
+        assert (README.parent / svg).is_file(), f"chybí {svg}"
+    alt = re.search(r'alt="([^"]+)"', text).group(1)
+    for needle in ("AI engineer", "Prague University of Economics and Business", "jan-alexandr-kopriva"):
+        assert needle in alt, f"chybí {needle!r} v alt textu karty"
     assert "<summary>STACK</summary>" in text
 
 
