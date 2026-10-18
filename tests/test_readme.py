@@ -21,17 +21,18 @@ REPO_ROOT = Path(__file__).resolve().parent.parent
 README = REPO_ROOT / "README.md"
 
 LINK_RE = re.compile(r"!?\[[^\]]*\]\(([^)\s]+)(?:\s+\"[^\"]*\")?\)")
+SRC_RE = re.compile(r'(?:src|srcset)="([^"]+)"')
 SCHEME_RE = re.compile(r"^[a-zA-Z][a-zA-Z0-9+.-]*:")
 
 
 def find_broken_relative_links(markdown_text: str, base_dir: Path) -> list[str]:
-    """Vrátí relativní odkazy/obrázky z markdownu, které na disku neexistují.
+    """Vrátí relativní odkazy/obrázky z markdownu a HTML src/srcset, které na disku neexistují.
 
     Externí URL (mají schéma jako http:, https:, mailto:) a čisté
     in-page anchory (#sekce) se přeskakují beze síťové kontroly.
     """
     broken = []
-    for target in LINK_RE.findall(markdown_text):
+    for target in LINK_RE.findall(markdown_text) + SRC_RE.findall(markdown_text):
         if target.startswith("#") or SCHEME_RE.match(target):
             continue
         clean_target = target.split("#", 1)[0]
@@ -49,7 +50,7 @@ def test_readme_exists_and_nonempty():
 
 
 def test_readme_has_expected_blocks():
-    # profil je neofetch karta (světlé a tmavé SVG) a sbalený stack
+    # profil je neofetch karta, světlé a tmavé SVG
     text = README.read_text(encoding="utf-8")
     for svg in ("light_mode.svg", "dark_mode.svg"):
         assert svg in text, f"README neodkazuje na {svg}"
@@ -57,7 +58,6 @@ def test_readme_has_expected_blocks():
     alt = re.search(r'alt="([^"]+)"', text).group(1)
     for needle in ("AI engineer", "Prague University of Economics and Business", "jan-alexandr-kopriva"):
         assert needle in alt, f"chybí {needle!r} v alt textu karty"
-    assert "<summary>STACK</summary>" in text
 
 
 def test_readme_relative_links_all_exist():
@@ -65,12 +65,10 @@ def test_readme_relative_links_all_exist():
     assert find_broken_relative_links(text, README.parent) == []
 
 
-def test_readme_has_external_links_sanity_check():
+def test_readme_link_extractor_sanity_check():
     # ověří, že extraktor skutečně něco najde (vyloučí vacuous pass výš)
     text = README.read_text(encoding="utf-8")
-    targets = LINK_RE.findall(text)
-    external = [t for t in targets if SCHEME_RE.match(t)]
-    assert len(external) >= 1
+    assert len(LINK_RE.findall(text) + SRC_RE.findall(text)) >= 2
 
 
 def test_link_checker_catches_missing_relative_file(tmp_path):
